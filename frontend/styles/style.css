@@ -75,3 +75,26 @@ tr:nth-child(2) {
   color: #333;
   background-color: #f9f9f9;
 }
+
+.timer-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 10px;
+}
+
+.timer-group #timer {
+  flex: 1;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.timer-group button {
+  margin: 0 10px;
+  width: 50px;
+  background-color: #702;
+}

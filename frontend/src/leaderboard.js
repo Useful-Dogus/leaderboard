@@ -36,7 +36,7 @@ function displayLeaderboard(data) {
     const MM = String(score.minutes).padStart(2, '0');
     const SS = String(score.seconds).padStart(2, '0');
     const FLOATING_SS = String(score.milliseconds).padStart(2, '0');
-    time.textContent = `${MM}:${SS}.${FLOATING_SS}`;
+    time.textContent = `${MM}분 ${SS}.${FLOATING_SS}초`;
 
     row.appendChild(time);
 
